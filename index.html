@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/2d3f466124.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="Image/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="Openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Graphic designer</p>
+            <h1>Hello, I'm <span>Atiq Faisal</span><br> From Bangladesh</h1>
+        </div>
+    </div>
+    
+</div>
+<!----------about-------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Image/about.jpeg">
+            </div>
+            
+            <div class="about-col-2">
+                <h1 class="sub-title">About me </h1>
+                <p>My name is Atiq Faisal, and I am currently pursuing my undergraduate studies in the Department of Information and Communication Technology (ICT) at Chandpur Science and Technology University. I come from Khulna, Bangladesh, where I developed my early interest in technology and digital innovation.
+
+As an ICT student, I am passionate about exploring the world of technology, including programming, software development, and digital systems. I am continuously working to improve my technical skills and expand my knowledge in areas such as web development, problem-solving, and modern IT solutions. I enjoy learning new tools and technologies that can help me build practical and impactful projects.</p>
+<div class="tab-titles">
+    <p class="tab-links active-link" onclick="opentab('skills')">skills </p>
+    <p class="tab-links" onclick="opentab('experience')">Experience </p>
+    <p class="tab-links" onclick="opentab('education')">Education </p>
+</div>
+<div class="tab-contents active-tab" id="skills">
+    <ul>
+        <li><span>Graphic Design</span><br>Logo, Banner & Social Media Design</li>
+        <li><span>Digital Marketing</span><br>Social Media Marketing (Facebook, Instagram)</li>
+        <li><span>Social Media Management</span><br>Page Setup, Post Scheduling & Growth</li>
+
+    </ul>
+</div>
+<div class="tab-contents" id="experience">
+    <ul>
+        <li><span>Digital Marketing Learner</span><br>Practicing social media marketing, content creation & basic SEO strategies</li>
+
+<li><span>Video Editing Practice</span><br>Creating YouTube Shorts, Reels & basic promotional videos using CapCut</li>
+
+<li><span>Personal Projects</span><br>Worked on design and marketing projects to build skills and portfolio</li>
+    </ul>
+</div>
+<div class="tab-contents"id="education">
+    <ul>
+       <li><span>BSc in Information & Communication Technology</span><br>Chandpur Science and Technology University (Running)</li>
+
+<li><span>Higher Secondary Certificate (HSC)-2022</span><br>Science Background</li>
+
+<li><span>Secondary School Certificate (SSC)-2020</span><br>Science Background</li>
+    </ul>
+</div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------services------>
+<div id="service">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-brush"></i>
+                <h2>Graphic design</h2>
+                <p> I create eye-catching logos, social media posts, banners, and thumbnails that help brands stand out and attract more audience.</p>
+                <a href="#">Learn more</a>
+            </div>
+             <div>
+                <i class="fa-solid fa-video"></i>
+                <h2>Short video editing</h2>
+                <p>  I produce high-quality short videos for YouTube Shorts, TikTok, and Instagram Reels to increase engagement and visibility.</p>
+                <a href="#">Learn more</a>
+            </div>
+<div>
+    <i class="fa-solid fa-seedling"></i>
+                <h2>Page growth strategies</h2>
+                <p>   I provide basic strategies and optimization techniques to help grow your social media pages organically.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------portfolio------------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title"> My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Image/work-1.png">
+                <div class="layer">
+                    <h3>Banner Design</h3>
+                    <p>Modern and creative banners using the latest design trends to make your brand look professional and impactful.</p>
+                <a href="#"><i class="fa-brands fa-atlassian"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Image/work-2.png">
+                <div class="layer">
+                    <h3>Page Cover Design</h3>
+                    <p>visually appealing cover photos for Facebook and other platforms that reflect your brand identity and attract audience attention.</p>
+                <a href="#"><i class="fa-solid fa-paintbrush"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Image/work-3.png">
+                <div class="layer">
+                    <h3>Book Cover Design</h3>
+                    <p>book covers that capture the essence of the content and attract readers at first glance.</p>
+                <a href="#"><i class="fa-solid fa-book"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!------------------contact------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>atiqfaisal45@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>01885786277</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/share/1CAhWveM7w/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://x.com/AtikAti77372"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href="https://www.instagram.com/atikfaisal2024?igsh=MXZyd2d0b3ZtdTk2cw=="><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/atiq-faisal-b16833390"><i class="fa-brands fa-linkedin"></i></a>
+                
+                    
+                </div>
+                <a href="Image/CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Atiq. Made with <i class="fa-brands fa-asymmetrik"></i> Overseas A&F Limited</p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script> 
+    var sidemenu = document.getElementById("sidemenu");
+    function Openmenu(){
+        sidemenu.style.right = "0";
+    }
+     function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+	const scriptURL = 'https://script.google.com/macros/s/AKfycbwpkoxiLwZ2vG3L0jlFRqHeux_PEHvaIoS4QnpcbWIU5DhuyFzVrjCGDgWnlhOLEv0MYA/exec'
+const form = document.forms['submit-to-google-sheet']
+
+form.addEventListener('submit', e => {
+  e.preventDefault()
+
+  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    .then(() => {
+      alert("Message sent successfully ✅");
+      form.reset();
+    })
+    .catch(error => {
+      alert("Error ❌");
+      console.error('Error!', error.message);
+    })
+})
+</script>
+    </body>
+</html>
